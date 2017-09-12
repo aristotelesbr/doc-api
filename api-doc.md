@@ -1,4 +1,4 @@
-Manual da API
+# API DOC
 
 Para mais detalhes sobre o processo de autenticação segue o link da documentação oficial:
 https://github.com/lynndylanhurley/devise_token_auth
