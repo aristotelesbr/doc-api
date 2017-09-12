@@ -82,9 +82,9 @@ PUT http://BASE_API/auth
 - No body a senha atual deve ser passada ao atributo "current_password" com o password do usuario da "sessão" atual e os novos atributos de atualização.
 
 
-#Agendamento
+# Agendamento
 
-##Create
+## Create
 
 O usuário deverá enviar uma requisição do tipo POST para '/schedules' com um objeto "schedule" contendo os seguintes atributos:
 
@@ -94,15 +94,15 @@ O usuário deverá enviar uma requisição do tipo POST para '/schedules' com um
   -user_id       (do tipo Int)
 
 
-##Update
+## Update
 
 Requisição dos tipo PUT para '/schedules/:id' com um objeto "schedule" com o "id" e os atributos a serem atualizados.
 
-##Destroy
+## Destroy
 
 Requisição dos tipo DELETE para '/schedules/:id' com um objeto "schedule" com o "id" do objeto a ser excluido.
 
-##Show
+## Show
 
 Requisição dos tipo GET para '/schedules/:id' com um objeto "schedule" contendo o "id" do objeto a ser localizado.
 
@@ -118,13 +118,13 @@ A resposta será uma hash com um atributo "available" com valor "true" quando ho
 e "false" quando não.
 
 
-#Estadados
+# Estadados
 GET para http://api.hemopi/states
 
 	Será renderizado um json com uma listagem de todos os estados.
 
 
-#Cidades
+# Cidades
 GET http://api.hemopi-manager/states/:id
 
 Para ver cada cidade corespondente a cada estado basta passar o estate_id na proxima requisição.
