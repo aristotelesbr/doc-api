@@ -9,7 +9,7 @@ http://api.hemopimanager.com
 # Cadastro
 Enviando uma requisição do tipo POST para a URL de "/auth"
 
-# Hearders
+# Headers
 Content-Type 	-> application/json
 Accept		    -> application/vnd.hemopimanager.v1
 
