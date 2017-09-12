@@ -22,7 +22,7 @@ POST http://api.hemopi-manager/auth
     "email": "johndoe@example.org",
     "password": "123456",
     "password_confirmation": "123456",
-    "firt_name" : "John"
+    "first_name" : "John"
     "last_name" : "Doe"
     "code" : "123456"
     "login" : "0425547885474" CPF
