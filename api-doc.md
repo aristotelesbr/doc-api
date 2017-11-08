@@ -24,13 +24,11 @@ POST http://api.hemopi-manager/auth
     "password_confirmation": "123456",
     "first_name" : "John"
     "last_name" : "Doe"
-    "code" : "123456"
-    "login" : "0425547885474" CPF
+    "login" : "0425547885474" # This is CPF
 }
 ```
 # Pós Cadastro
 ```
-"login": "025888745996", # This is CPF
 "rg": "2585222 SSP PI",
 "city_id": "1",
 "state_id": "1",
@@ -68,6 +66,8 @@ Enviando uma requisição POST para a URL de "/auth/sign_in" com uma chave user 
 Ex:
 ```
   {
+    "login": "0425547885474", # This is CPF
+    ou
     "email": "test@example.org",
     "password": "123456"
   }
